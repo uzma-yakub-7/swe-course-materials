@@ -1,4 +1,4 @@
-Problem Statement:
+# Problem 1:
 You are given an array of n positive integers a[1..n] and an integer k. Your task is to find the maximum length of a subarray (i.e., a contiguous segment) such that the sum of its elements is less than or equal to k.Input:
 The first line contains two integers n and k (1 ≤ n ≤ 10^5, 1 ≤ k ≤ 10^9).
 The second line contains n integers a₁, a₂, ..., aₙ (1 ≤ a[i] ≤ 10^4).
@@ -9,5 +9,26 @@ Print a single integer — the maximum length of a subarray whose sum is ≤ k.
 1 2 3 4 5
 Note : Max length
 3 (1 + 2 + 3 < 8)
+
+# Problem 2
+Question:
+You are given the following sequence of integers:
+
+11, 6, 8, 19, 4, 10, 5, 17, 43, 49, 31
+
+Tasks:
+
+1. Write a program to create a Binary Search Tree (BST) by inserting the elements in the given order.
+2. Display the BST using inorder traversal.
+3. Delete the node with the value 19 from the BST.
+4. Again, display the BST using inorder traversal after the deletion.
+
+
+
+Instructions:
+
+1. Implement the insertion and deletion operations according to standard BST rules.
+2. Clearly show the inorder tree traversal before and after the deletion.
+3. Use appropriate classes and functions for BST nodes and tree operations.
 
 
