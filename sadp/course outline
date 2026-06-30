@@ -1,0 +1,14 @@
+Syllabus
+Course Contents:
+Introduction to Information systems modern approach to systems analysis and design Information systems development life cycles (a), CASE tools in systems development.
+Design Patterns: Strategy, Observer, Factory, Singleton, Command, Adapter, Facade, Template Method, Iterator, Composite, State, Proxy, Compound Patterns.
+Steps of system analysis, Feasibility study, Economic and technical analysis, System specification, the elements of analysis model, Data modeling
+Functional modeling and information flow, Behavioral modeling, Mechanics of structured analysis, Data Dictionary.
+Review of previous classes
+Design principles, Design Concepts, effective modular design, design heuristics, Data Design, Architectural Design process, Transformation mapping, Transaction mapping, interface design, human-computer interface design, procedural design.
+Object-Oriented Analysis and Design: s: association, class diagram, event, object, object class, operation, sequence diagram, state, state transition, Unified Modeling Language, and use case, concepts and principles underlying the object-oriented approach. Requirements model using use-case diagrams, object model using class diagrams, state and sequence diagrams.
+Process of coding from design and analysis model, testing, and installing an organizational information system and outline the deliverables and outcomes of the process. Agile Methodologies.
+
+
+Text Books:
+1. Gamma, Erich. Design patterns: elements of reusable object-oriented software. Pearson Education, 1995.
