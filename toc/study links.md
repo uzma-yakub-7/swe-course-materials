@@ -1,0 +1,2 @@
+- https://nesoacademy.org/cs/04-theory-of-computation/ppts
+- https://www.youtube.com/watch?v=58N2N7zJGrQ&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev
