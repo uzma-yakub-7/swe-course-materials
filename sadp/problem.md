@@ -71,3 +71,24 @@ Department: QA
 Employee: Bob Johnson - $40000.0
 Total Engineering Department Salary: $150000.0
 
+# Problem 4
+The Payment Processor Patterns Used: Strategy, Adapter, Singleton Consider an e-commerce checkout system. 
+
+The PaymentStrategy (Strategy) interface defines a pay(amount) method. Concrete strategies are CreditCardStrategy and PayPalStrategy. 
+
+The system needs to integrate with a new, third-party "CryptoPayment" service that uses a method sendCrypto(String currency, double amount). 
+
+You create a CryptoPaymentAdapter (Adapter). The PaymentProcessor (Singleton) is the central class that manages and executes the selected payment strategy. 
+
+Question: How do the three patterns work together to allow a user to pay with cryptocurrency? Name the role of each pattern.
+
+# Problem 5
+Imagine you are building a media player application. The core feature is a play button that should work with any type of audio file. 
+
+Your player has a PlaybackStrategy interface with a single method: play(String fileName). You already have two strategies: MP3Strategy - can play .mp3 files using playMp3(fileName) WAVStrategy - can play .wav files using playWav(fileName)
+
+ Now, you want to add support for a powerful, new AdvancedAudioEngine from a third-party library. This engine is fantastic, but it has a different method: playAdvancedFormat(String filePath, String codec). 
+
+
+Question: How can you use the Adapter Pattern to make this AdvancedAudioEngine work with your existing Strategy Pattern system, so that when the user clicks the play button, it can handle the new format just like an MP3 or WAV file? What specific class would you create, and what would it do?
+
