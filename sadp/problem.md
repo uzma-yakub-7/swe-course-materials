@@ -49,4 +49,25 @@ Scenario 1: Home Theater System
 Scenario 2: Document Exporter
  You need different compression algorithms (ZIP, RAR, TAR) that can be switched at runtime. Also, you want a single instance of CompressionManager to handle all compression operations.
 
+# Problem 3
+Composite Pattern
+
+You are modeling a company's organizational structure. There are two types of components:
+Individual Employees (leaf nodes) which have a name and a salary.
+Departments (composite nodes) which have a name and can contain any number of employees or sub-departments.
+Requirements:
+Define a common interface (or abstract class) for both employees and departments with the following methods:
+double getSalary(); // returns the total salary of the component
+void display(); // prints the details of the component
+For an Employee, the getSalary() method returns the employee's salary, and display() prints the employee's name and salary.
+For a Department, the getSalary() method returns the sum of the salaries of all components in the department (including sub-departments).
+The display() method should print the department name and then display all the components (employees and sub-departments) within it.
+The Department class should have methods to add and remove components.
+Example of expected output for a department with two employees and one sub-department:
+Department: Engineering
+Employee: John Doe - $50000.0
+Employee: Jane Smith - $60000.0
+Department: QA
+Employee: Bob Johnson - $40000.0
+Total Engineering Department Salary: $150000.0
 
