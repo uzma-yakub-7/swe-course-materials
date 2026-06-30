@@ -40,4 +40,13 @@ resumeGame()
 //
 shutdownGame()
 
+# Problem-2
+You are given two scenarios and you need to identify the design pattern for each and write a minimal code structure.
+
+Scenario 1: Home Theater System
+ You have complex classes for Projector, SoundSystem, and DvdPlayer. You want a simple interface for the client to watch a movie without dealing with these classes directly.
+
+Scenario 2: Document Exporter
+ You need different compression algorithms (ZIP, RAR, TAR) that can be switched at runtime. Also, you want a single instance of CompressionManager to handle all compression operations.
+
 
