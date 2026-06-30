@@ -1,0 +1,1 @@
+- Make Entity Relationship Diagram of your OOP project, Scheme and the DML statement with all Referential Integrity Constraints.
