@@ -92,3 +92,10 @@ Your player has a PlaybackStrategy interface with a single method: play(String f
 
 Question: How can you use the Adapter Pattern to make this AdvancedAudioEngine work with your existing Strategy Pattern system, so that when the user clicks the play button, it can handle the new format just like an MP3 or WAV file? What specific class would you create, and what would it do?
 
+# Problem 6
+File System Manager
+You're building a file system where:
+Both File and Directory can be treated as FileSystemComponent with operations like getSize() and list()
+Users need simple high-level operations like backup(component) that handles the complexity of traversing the entire structure
+ Design a system, write minimal pseudo-code.
+
